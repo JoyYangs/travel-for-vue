@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="fanhui" unicode="&#59068;" d="M702.912-212 192.128 301.216 700.416 812 768.32 743.776 327.936 301.216 770.816-143.776Z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="zhankai" unicode="&#59164;" d="M492.8 295.9c11.9-12.7 31.8-13.3 44.4-1.4 0.5 0.5 1 0.9 1.4 1.4l411.7 411.7c12.7 12.7 12.7 33.2 0 45.8-12.7 12.7-33.2 12.7-45.8 0L511.8 360.7 119.1 753.4c-12.7 12.7-33.2 12.7-45.8 0-12.7-12.7-12.7-33.2 0-45.8l419.5-411.7z m411.9 183.2L512 86.5 119.3 479.1c-12.7 12.7-33.2 12.7-45.8 0s-12.7-33.2 0-45.8l418.8-418.2c11.9-12.7 31.8-13.3 44.4-1.4 0.5 0.5 1 0.9 1.4 1.4l411.7 411.7c12.7 11.9 13.3 31.8 1.4 44.4-0.5 0.5-0.9 1-1.4 1.4-7.2 13.8-24.2 19.1-38 11.9-2.6-1.4-5.1-3.2-7.1-5.4z"  horiz-adv-x="1117" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -9,9 +9,9 @@
 </template>
 
 <script>
-	export default {
-		name: "Header"
-	}
+export default {
+	name: "HomeHeader"
+}
 </script>
 
 <style lang="stylus" scoped>

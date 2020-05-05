@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <Header></Header>
+    <home-header></home-header>
+    <home-swiper></home-swiper>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from '@/views/home/components/Header'
-
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/Swiper'
 
 export default {
   name: 'Home',
   components: {
-    Header
+    HomeHeader,
+    HomeSwiper
   }
 }
 </script>

@@ -1,56 +1,52 @@
 <template>
-	<div class="wrapper">
-		<swiper ref="mySwiper" :options="swiperOptions">
-			<swiper-slide v-for="item of swiperList" :key="item.id">
-				<img class="swiper-img" :src="item.image">
-			</swiper-slide>
+	<div class="swiper">
+		我是轮播图位置
+		<!-- <swiper ref="mySwiper" :options="swiperOptions">
+			<swiper-slide>Slide 1</swiper-slide>
+			<swiper-slide>Slide 2</swiper-slide>
+			<swiper-slide>Slide 3</swiper-slide>
+			<swiper-slide>Slide 4</swiper-slide>
+			<swiper-slide>Slide 5</swiper-slide>
 			<div class="swiper-pagination" slot="pagination"></div>
-		</swiper>
+  	</swiper> -->
 	</div>
 </template>
 
 <script>
+// import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+
 export default {
 	name: "HomeSwiper",
+	// components: {
+	// 	Swiper,
+	// 	SwiperSlide
+	// },
 	data() {
 		return {
-			swiperOptions: {
-				pagination: '.swiper-pagination',
-				loop: true
-			},
-			swiperList: [{
-				id: '0001',
-				image: 'https://img1.qunarzz.com/qs/1912/50/067a6d82e1ca0b02.jpg'
-			}, {
-				id: '0002',
-				image: 'https://img1.qunarzz.com/qs/2001/d9/8844a335554e1c02.jpg'
-			},{
-				id: '0003',
-				image: 'https://imgs.qunarzz.com/douxing/i3/1612/71/9b6daaaf97b6fa02.jpg'
-			}, {
-				id: '0004',
-				image: 'https://imgs.qunarzz.com/douxing/i3/1612/71/9b6daaaf97b6fa02.jpg'
-			},{
-				id: '0005',
-				image: 'https://img1.qunarzz.com/qs/2001/d9/8844a335554e1c02.jpg'
-			}, {
-				id: '0006',
-				image: 'https://imgs.qunarzz.com/douxing/i3/1612/71/9b6daaaf97b6fa02.jpg'
-			}]
+			// swiperOptions: {
+			// 	pagination: {
+			// 		el: '.swiper-pagination'
+			// 	}
+			// }
 		}
 	}
 }
 </script>
 
-<style lang="stylus" scoped>
-	wrapper >>> .swiper-pagination-bullet-active
-		background  #ffffff
-	.wrapper 
-		overflow hidden
-		width 100%
-		height .100rem
-		padding-bottom 31.25%
-		.swiper-img 
-			width 100%
-			background-color red
+<style>
+.swiper {
+  height: 180px;
+  width: 100%;
+	background-color: aliceblue;
+}
+
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #ffffff;
+}
 </style>

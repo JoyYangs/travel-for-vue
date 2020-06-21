@@ -4,7 +4,10 @@
 			<span class="iconfont">&#xe6bc;</span>
 		</div>
 		<div class="header-input">输入城市/景点/游玩主题</div>
-		<div class="header-right">城市</div>
+		<router-link to="/city">
+			<div class="header-right">城市</div>
+		</router-link>
+		
 	</div>
 </template>
 
@@ -14,31 +17,35 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-	@import '~@/assets/css/variable.styl'
-	.header
-		display flex
-		height .86rem
-		line-height .86rem
-		text-align center
-		background-color $bgColor
-		.header-left
-			width .64rem
-			float left
-		.header-input 
-			flex 1
-			margin-left .1rem
-			color #cccccc
-			background #ffffff
-			border-radius .1rem
-			margin-top .12rem
-			height .62rem
-			line-height .62rem
-			text-align left 
-			padding-left .1rem
-		.header-right
-			width 1.24rem
-			float right
+<style scoped>
+	.header {
+		display: flex;
+		height: 43px;
+		line-height: 43px;
+		text-align: center;
+		background-color: #00bcd4;
+	}
 
+	.header-left {
+		width: 32px;
+		float: left;
+	}
 
+	.header-input {
+		flex: 1;
+		margin-top: 6px;
+		margin-left: 5px;
+		padding-left: 5px;
+		border-radius: 5px;
+		height: 32px;
+		line-height: 32px;
+		font-size: 13px;
+		color: #cccccc;
+		background-color: #ffffff;
+	}
+
+	.header-right {
+		width: 62px;
+		float: right;
+	}
 </style>
